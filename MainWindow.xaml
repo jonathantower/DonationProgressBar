@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="ProgressBar.MainWindow" Title="MainWindow" Height="12" Width="200" WindowStyle="None" Background="#00FFFFFF" ResizeMode="NoResize" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid Background="#00FFFFFF">
+    <ProgressBar Name="progressbar" Height="12" Value="40" Opacity="0.6" />
+    <TextBlock Name="textblock" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-1,0,0">0%</TextBlock>
+  </Grid>
+</Window>
